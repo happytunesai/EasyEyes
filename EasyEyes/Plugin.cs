@@ -78,8 +78,8 @@ namespace EasyEyes {
             ResourceLoader.Enable();
 
             Services.PluginInterface.UiBuilder.Draw += MainUI.Draw;
-            Services.PluginInterface.UiBuilder.OpenConfigUi += OpenMainUi;
             Services.PluginInterface.UiBuilder.OpenMainUi += OpenMainUi;
+            Services.PluginInterface.UiBuilder.OpenConfigUi += OpenMainUi;
         }
 
         public void ClearSpawnVfx() {
