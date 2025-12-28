@@ -1,4 +1,5 @@
-using Dalamud.Bindings.ImGui;
+using Dalamud.Interface.Windowing;
+using ImGuiNET;
 using System;
 using System.IO;
 using System.Numerics;
@@ -33,7 +34,7 @@ namespace EasyEyes.UI {
 
             ImGui.SetCursorPosY( ImGui.GetCursorPosY() + 5 );
 
-            ImGui.BeginChild( Id + "Tree", new Vector2( -1, ImGui.GetContentRegionAvail().Y - 22 ), true );
+            ImGui.BeginChild( Id + "Tree", new Vector2( -1, ImGui.GetContentRegionAvail().Y - 22 ), ImGuiChildFlags.Borders );
             LogTab.DisplayVisible( Plugin.Config.Items.Count, out var preItems, out var showItems, out var postItems, out var itemHeight );
             ImGui.SetCursorPosY( ImGui.GetCursorPosY() + preItems * itemHeight );
             var idx = 0;

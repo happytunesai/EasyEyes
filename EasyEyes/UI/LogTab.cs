@@ -1,4 +1,5 @@
-using Dalamud.Bindings.ImGui;
+using Dalamud.Interface.Windowing;
+using ImGuiNET;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -65,7 +66,7 @@ namespace EasyEyes.UI {
             }
 
             //=======================
-            ImGui.BeginChild( Id + "Tree", new Vector2( -1, -1 ), true );
+            ImGui.BeginChild( Id + "Tree", new Vector2( -1, -1 ), ImGuiChildFlags.Borders );
 
             if( searched.Count > 0 ) {
                 DisplayVisible( searched.Count, out var preItems, out var showItems, out var postItems, out var itemHeight );

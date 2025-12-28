@@ -4,6 +4,10 @@ A QuickLauncher plugin which can hide VFXs which are too bright or distracting.
 
 Icon by [PAPACHIN](https://www.xivmodarchive.com/user/192152)
 
+## Version
+- **Current Version**: 1.3.3.0
+- **API Level**: 14 (Dawntrail 7.4 compatible)
+
 ## Installation
 1. This plugin requires [XIV Quick Launcher](https://github.com/goatcorp/FFXIVQuickLauncher) to run
 2. Enable the plugins from the `/xlplugins` menu
