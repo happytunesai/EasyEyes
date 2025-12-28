@@ -2,6 +2,7 @@
     <PropertyGroup>
         <TargetFramework>net10.0-windows</TargetFramework>
         <PlatformTarget>x64</PlatformTarget>
+        <AssemblyName>EasyEyesNET10</AssemblyName>
         <AssemblyTitle>VFXEditor</AssemblyTitle>
         <Company></Company>
         <Product>EasyEyes</Product>
