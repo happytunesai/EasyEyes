@@ -3,3 +3,4 @@ obj/
 bin/
 *.user
 backup*/
+NET10_COMPATIBILITY.md
