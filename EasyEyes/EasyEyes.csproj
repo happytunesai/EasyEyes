@@ -7,8 +7,8 @@
         <Company></Company>
         <Product>EasyEyes</Product>
         <Copyright>Copyright © 2020</Copyright>
-        <FileVersion>1.4.0.0</FileVersion>
-        <AssemblyVersion>1.4.0.0</AssemblyVersion>
+        <FileVersion>1.4.0.1</FileVersion>
+        <AssemblyVersion>1.4.0.1</AssemblyVersion>
         <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
         <AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath>
         <CopyLocalLockFileAssemblies>true</CopyLocalLockFileAssemblies>
@@ -21,15 +21,7 @@
     </PropertyGroup>
 
     <ItemGroup>
-        <Reference Include="ImGuiNET">
-            <HintPath>$(DalamudLibPath)Dalamud.Bindings.ImGui.dll</HintPath>
-            <Private>False</Private>
-        </Reference>
-    </ItemGroup>
-
-    <ItemGroup>
         <PackageReference Include="mgholam.fastCSV" Version="2.0.9" />
-        <PackageReference Include="ImGui.NET" Version="1.91.6" />
     </ItemGroup>
 
     <ItemGroup>

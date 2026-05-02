@@ -5,7 +5,7 @@
         "Punchline": "Hide annoying or distracting VFXs",
         "Description": "A plugin which can hide any VFX. Icon by PAPACHIN (.NET 10)",
         "InternalName": "EasyEyesNET10",
-        "AssemblyVersion": "1.4.0.0",
+        "AssemblyVersion": "1.4.0.1",
         "RepoUrl": "https://github.com/happytunesai/EasyEyes",
         "ApplicableVersion": "any",
         "Tags": [ "VFX", "AVFX" ],
